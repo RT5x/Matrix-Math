@@ -34,9 +34,9 @@ std::cout << "[" << m11 << "  " << m12 << "  "<< m13 << " / " << m21 << "  " << 
     
 }
 
-int main(){   // Main function, takes in argc and argv
+int main(){   
 
-inv(1, 2, 5, 4, 5, 6, 7, 8, 9);
+inv(1, 2, 5, 4, 5, 6, 7, 8, 9);  // Put the matrix you want to invert here
 return 0;
 
 }
