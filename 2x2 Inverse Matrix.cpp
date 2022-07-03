@@ -2,6 +2,10 @@
 #include <cmath>
 
 // Invert 2x2 matrix, with indices a, b, c, d
+/*
+[a  b]
+[c  d]
+*/
 
 double inv(double a, double b, double c, double d){
     double m11 = d * (1/((a * d)- (b * c)));
@@ -16,9 +20,9 @@ std::cout << "[" << m11 << " " << m12 << " / " << m21 << " " << m22 << "]\n";
     
 }
 
-int main(){   // Main function, takes in argc and argv
+int main(){   
 
-inv(1, 8, 3, 4);
+inv(1, 8, 3, 4);    // Put matrix here!
 return 0;
 
 }
