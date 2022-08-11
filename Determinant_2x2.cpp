@@ -8,7 +8,7 @@ int det(int a, int b, int c, int d){
     return result;
 }
 
-int main(int argc, char ** argv){   // Main function, takes in argc and argv
+int main(){   
 
 det(1, 2, 3,4);
 return 0;
