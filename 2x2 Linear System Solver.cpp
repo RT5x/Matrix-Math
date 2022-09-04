@@ -1,5 +1,5 @@
 #include <iostream>
-// x + y = 1
+// x + y = 1       By RT5x
 // 2x - 3y = 5
 
 // [1  1] [x] = [1]
@@ -15,7 +15,7 @@
 [y] = [m21 m22]    [z]   [p*m21 + z*m22]
 */
 int main() {
-int a;
+double a;
 double b;
 double c;
 double d;
